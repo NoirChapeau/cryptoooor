@@ -15,7 +15,9 @@
 </svelte:head>
 
 <div class="privacy-page" in:fade>
-  <h1>Privacy Policy</h1>
+  <header>
+      <h1>Privacy Policy</h1>
+  </header>
   
   <section class="policy-section">
     <h2>Our Commitment</h2>

@@ -15,7 +15,9 @@
 </svelte:head>
 
 <div class="terms-page" in:fade>
-  <h1>Terms of Service</h1>
+  <header>
+      <h1>Terms of Service</h1>
+  <header>
 
   <section class="terms-section">
     <h2>Overview</h2>

@@ -21,11 +21,22 @@
 </svelte:head>
 
 <div class="container" in:fade>
-  <FileEncryptor />
-  <SocialLinks />
-  <Creator />
-  <KofiButton />
-  <Features />
+    <header>
+        <h1>Secure File Encryption</h1>
+    </header>
+    <section aria-label="file-encryption">
+        <FileEncryptor />
+    </section>
+    <section aria-label="social-links">
+        <SocialLinks />
+    </section>
+    <section aria-label="creator">
+        <Creator />
+        <KofiButton />
+    </section>
+    <section aria-label="features">
+        <Features />
+    </section>
 </div>
 
 <style>
